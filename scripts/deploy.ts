@@ -7,9 +7,11 @@ async function main() {
 	const GitcoinHook = await ethers.getContractFactory("GitcoinHook");
 	const gitcoinHook = await GitcoinHook.deploy();
 
-	await gitcoinHook.deployed();
+	await gitcoinHook.waitForDeployment();
 
-	console.log(`Deployed to ${gitcoinHook.address}`);
+	 const gitcoinHookAddress = await gitcoinHook.getAddress();
+    console.log(`Deployed to ${gitcoinHookAddress}`);
+
 }
 
 main().catch((error) => {
