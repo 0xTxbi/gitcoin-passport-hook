@@ -1,4 +1,4 @@
-# Gitcoin Hook for Locks
+# Gitcoin Passport Hook for Locks
 
 This project implements an Unlock
 [PublicLock Hook](https://docs.unlock-protocol.com/core-protocol/public-lock/hooks)

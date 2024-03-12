@@ -31,6 +31,6 @@
 		"@openzeppelin/test-helpers": "^0.5.16",
 		"@unlock-protocol/contracts": "^0.0.22",
 		"@unlock-protocol/hardhat-plugin": "^0.0.18",
-		"@unlock-protocol/networks": "^0.0.9"
+		"@unlock-protocol/networks": "^0.0.21"
 	}
 }
